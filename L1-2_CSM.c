@@ -7,7 +7,7 @@ int divide_number(int divided_number[],int input)
 	int ten_multiple;
 	int cipher=0;
 	
-	for(ten_multiple=1 ;  ; ten_multiple*=10)  //Convert to a multiple of 10
+	for(ten_multiple=1 ;  ; ten_multiple*=10)  //Convert to type of multiple of 10
 	{
 		if(ten_multiple>input)
 			break;
